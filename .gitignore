@@ -1,0 +1,7 @@
+.idea
+dist.rar
+.project
+dist/*
+node_modules/*
+.settings/*
+.settings

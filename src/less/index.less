@@ -1,0 +1,42 @@
+@charset "utf-8";
+/*
+* @description: 首页
+* @author: summer
+* @updateTime: 2017-6-29
+*/
+/*变量定义*/
+@width: 500px;
+@color: #333;
+@fontSize: 16px;
+
+body {
+    text-align: center;
+}
+#test { 
+	width: @width;
+	border:1px solid #ccc;
+	color: @color;
+	font-size: @fontSize;
+	margin:30px auto;
+	text-align: center;
+	padding-top: 20px;
+
+	p.info { 
+		background-color:@color;
+		color: #ffffff;
+		margin-top: 20px;
+	}
+	p.info1 {
+		margin-top: 20px;
+		width: 500px;
+		height: 650px;
+		background: url("../images/1.jpg") no-repeat;
+	}
+	a.line {
+		text-decoration:underline;
+		color: #f50d0d;
+		margin-top: 20px;
+		display: inline-block;
+		padding-bottom: 20px;
+	}
+}
